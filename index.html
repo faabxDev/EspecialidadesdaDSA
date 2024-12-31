@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desbravadores</title>
+</head>
+
+<body>
+    <header>
+        <h1>Especialidades da DSA</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome da especialidade" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa"
+        id="resultados-pesquisa"> <!-- A classe se usa muito no css, o ID se usa no JavaScript-->
+        </section> 
+    </main>
+    <footer>
+        <p>2024 - Desbravadores DSA. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: fabiano@vizwise.com.br</p>
+    </footer>
+    <!-- Lembrar de sempre importar o js no fim do código, para que o html/css ele seja renderizado por completo, antes de ser rodado a aplicação js, para não dar a impressão de lentidão no carregamento da página -->
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
